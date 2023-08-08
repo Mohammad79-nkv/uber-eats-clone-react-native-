@@ -11,7 +11,7 @@ export default function HeaderTabs() {
     const updatedTabs = tabs.map((tab) =>
       tab.id === id ? { ...tab, active: true } : { ...tab, active: false }
     );
-    setTabs(updatedTabs)
+    setTabs(updatedTabs);
   };
 
   return (
@@ -33,7 +33,9 @@ const HeaderButton = (props) => {
 
   return (
     <TouchableOpacity style={styles.tabBtn(active)} onPress={onPress}>
-      <Text style={{ color: active ? "white" : "black" }}>{text}</Text>
+      <Text style={{ color: active ? "white" : "black", fontWeight: 900 }}>
+        {text}
+      </Text>
     </TouchableOpacity>
   );
 };
