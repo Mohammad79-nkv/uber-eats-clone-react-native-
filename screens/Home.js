@@ -2,6 +2,7 @@ import { View, Text, SafeAreaView, StyleSheet } from "react-native";
 import React from "react";
 import HeaderTabs from "../components/HeaderTabs";
 import SearchBar from "../components/SearchBar";
+import Categories from "../components/Categories";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <View style={styles.wrapper}>
         <HeaderTabs />
         <SearchBar />
+        <Categories />
       </View>
     </SafeAreaView>
   );

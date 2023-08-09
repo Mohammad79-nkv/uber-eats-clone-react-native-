@@ -12,7 +12,7 @@ export default function SearchBar() {
         styles={{
           textInput: {
             backgroundColor: "#eee",
-            fontWeight: 700,
+            fontWeight: "700",
             borderRadius: 20,
             marginTop: 7,
           },
@@ -42,6 +42,7 @@ export default function SearchBar() {
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: "#ffffff",
     marginTop: 15,
     flexDirection: "row",
   },

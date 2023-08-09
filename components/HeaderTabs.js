@@ -42,6 +42,7 @@ const HeaderButton = (props) => {
 
 const styles = StyleSheet.create({
   container: {
+    // backgroundColor: "#ffffff",
     flexDirection: "row",
     alignSelf: "center",
   },
@@ -52,6 +53,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     borderRadius: 30,
     fontSize: 15,
-    fontWeight: 900,
+    fontWeight: "900",
   }),
 });
