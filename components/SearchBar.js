@@ -43,7 +43,7 @@ export default function SearchBar() {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#ffffff",
-    marginTop: 15,
+    padding: 15,
     flexDirection: "row",
   },
   searchLeftBtn: {

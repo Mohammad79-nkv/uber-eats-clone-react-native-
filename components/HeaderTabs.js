@@ -45,6 +45,10 @@ const styles = StyleSheet.create({
     // backgroundColor: "#ffffff",
     flexDirection: "row",
     alignSelf: "center",
+    justifyContent: 'center',
+    backgroundColor: "#ffffff",
+    padding: 15,
+    width: "100%",
   },
   tabBtn: (active) => ({
     backgroundColor: active ? "black" : "white",

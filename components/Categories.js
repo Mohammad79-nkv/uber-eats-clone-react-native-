@@ -48,8 +48,9 @@ export default function Categories() {
 
 const styles = StyleSheet.create({
   container: {
-
-    marginTop: 20,
+    backgroundColor: "#ffffff",
+    marginTop: 5,
+    paddingVertical: 10,
     borderTopColor: 'black'
   },
   itemHolder: {
