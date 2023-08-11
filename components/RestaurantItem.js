@@ -6,7 +6,7 @@ import StarRating from "react-native-star-rating-widget";
 export default function RestaurantItem(props) {
   const { imageSrc, title, rate, estimateTime } = props;
   return (
-    <TouchableOpacity style={styles.container}>
+    <TouchableOpacity style={styles.container} activeOpacity={1} >
       <Image source={imageSrc} style={styles.imageHolders} />
       <View style={styles.foodInfo}>
         <View>
